@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students - Local Storage</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- form to input student information -->
+    <div id="app">
+        <h1>ADD A STUDENT </h1>
+        <h4>Insert a student's information below, and let it be saved using localStorage! Then, hit the "Remember Students" button, and watch the student(s) be displayed!</h4>
+        <div class="form">
+            <label for="fName">First Name</label>
+            <input class="textInputs" type="text" id="firstName" placeholder="Susie" required>
+
+            <label for="lName">Last Name</label>
+            <input class= "textInputs" type="text" id="lastName" placeholder="Que" required>
+
+            <label for="lName">Age</label>
+            <input class= "textInputs" type="text" id="age" placeholder="24" required>
+
+            <label for="lName">Email Address</label>
+            <input class= "textInputs" type="text" id="emailAddress" placeholder="susieq@gmail.com" required>
+
+            <label for="classes">Classes</label>
+            <input class= "textInputs" type="text" id="classes" placeholder="Add your classes seperated by a comma." required>
+
+            <input type="submit" id="submit" value="Add Student Information" />
+        </div>
+    </div>
+    
+    <!-- displays the student information memorized -->
+     <div class="students">
+        <span id="getStudents">Remember Students</span>
+        <div id="studentList"></div>
+     </div>
+  
+    <!-- script files -->
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="app/app.js"></script>
+</body>
+</html>

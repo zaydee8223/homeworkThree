@@ -1,0 +1,102 @@
+/* reset */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+/* app id , students class */
+#app, .students {
+    padding: 50px;
+}
+
+
+/* h1 */
+h1 {
+    color: #6a3e40;
+    font-size: 35px;
+    text-align: center;
+}
+
+/* h4 - small text */
+h4 {
+    width: 560px;
+    padding: 10px;
+    margin: 0 auto;
+    line-height: 1.4;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+}
+
+/* form div, students div */
+.form, .students {
+    width: 60%;
+    margin: 0 auto;
+    
+    }
+    
+    /* labels */
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+
+    /* input boxes */
+    .textInputs {
+        width: 100%;
+        height: 40px;
+        padding-left: 20px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        display: block;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* submit btn on input */
+    #submit {
+        width: 50%;
+        height: 40px;
+        font-size: 18px;
+        border-radius: 20px;
+        color: #fff;
+        display: block;
+        cursor: pointer;
+        margin: 0 auto;
+        border: 2px solid #000;
+        background-color: #b57168;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* button to remember students */
+    #getStudents {
+        color: #fff;
+        display: block;
+        cursor: pointer;
+        margin: 0 auto;
+        text-align: center;
+        width: 50%;
+        height: 40px;
+        font-size: 18px;
+        padding: 8px 70px;
+        border-radius: 20px;
+        border: 2px solid #000;
+        background-color: #b57168;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    } 
+    
+
+    /* student list with information */
+    #studentList {
+        padding-top: 20px;
+        font-size: 18px;
+        padding-bottom: 30px;
+     
+    }
